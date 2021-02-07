@@ -63,20 +63,21 @@ public class MyArray {
 
     public static void main(String[] args) {
         MyArray arr = new MyArray();
-        arr.push("hello");
-        arr.push("world");
+        arr.push(3);
+        arr.push(5);
         arr.push(2);
+        arr.push(7);
 
         System.out.println("Array formed is :");
         for(int i=0;i<arr.length;i++){
             System.out.println(arr.get(i));
         }
 
-        arr.pop();
-        System.out.println("After pop :");
-        for(int i=0;i<arr.length;i++){
-            System.out.println(arr.get(i));
-        }
+//        arr.pop();
+//        System.out.println("After pop :");
+//        for(int i=0;i<arr.length;i++){
+//            System.out.println(arr.get(i));
+//        }
 
         arr.delete(1);
         System.out.println("After deleting index 1 :");
